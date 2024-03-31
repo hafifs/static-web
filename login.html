@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Pantai Pilihan Anda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/libs/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/login.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-lg">
+            <a href="index.html" class="nav-brand font-size" style="text-decoration: none; color: #1A1AFF;">Ocean<span style="font-weight: 600;">Group</span>
+            </a>
+            <button class="sidebar-toggle" style="background: transparent; border: 0; padding: 5px;">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" fill="rgb(103, 103, 103)" viewBox="0 0 448 512">
+                    <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+                </svg>
+            </button>
+            <div class="menu-navbar icon-menu" style="font-size: 18px;">
+                <a href="index.html">Home</a>
+                <a href="index.html#service">Service</a>
+                <a href="index.html#pantai">Pantai</a>
+                <a href="index.html#contact">Contact</a>
+                <div class="dropdown">
+                    <a class="dropdown-toggle" style="font-size: 18px; padding: 0;" type="button" data-bs-toggle="dropdown" aria-expanded="false">Lainnya</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="login.html">Login</a></li>
+                        <li><a class="dropdown-item" href="register.html">Register</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <a href="#" class="nav-brand font-size" style="text-decoration: none; color: #1A1AFF;">Ocean<span style="font-weight: 600;">Group</span></a>
+                    <button class="close-toggle" style="background: transparent; border: 0; padding: 5px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="25px" fill="rgb(103, 103, 103)" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+                    </button>
+                </div>
+                <div class="sidebar-body icon-menu" style="font-size: 20px;">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#service">Service</a>
+                    <a href="index.html#pantai">Pantai</a>
+                    <a href="index.html#contact">Contact</a>
+                    <a href="login.html">Login</a>
+                    <a href="register.html">Register</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="containerr">
+        <div class="login-register">
+            <div class="login">
+                <h5 style="font-size: 2rem; font-weight: 700; color: #1A1AFF; margin-bottom: 30px;">Login</h5>
+                <form action="#">
+                    <input  class="email-pw" type="text" placeholder="E-Mail"><br>
+                    <input  class="email-pw" type="password" placeholder="Password">
+                </form>
+                <div class="check-form">
+                    <div class="check-box">
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox" style="font-size: 15px;">Remember Me</label>
+                    </div>
+                    <a href="#" style="font-size: 15px; color: black;">Forgot Password</a>    
+                </div>
+                <div>
+                    <input class="submit-form" type="submit" value="Login">
+                </div>
+                <div class="mobile-reg">
+                    <p style="font-size: 13px; margin-bottom: 5px;">Belum Punya Akun? Ingin Mendaftar?</p>
+                    <a class="btn-register1" href="register.html" style="text-decoration: none;">Register</a>
+                 </div>
+            </div>
+            <div class="register">
+                <h5 style="font-size: 40px; font-weight: 700; margin-bottom: 10px;">Belum Punya Akun ?</h5>
+                <p style="font-size: 15px; font-weight: 100;">Daftarkan diri anda dengan cara klik link dibawah ini</p>
+                <div>
+                   <a class="btn-register" href="register.html" style="text-decoration: none;">Register</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="/assets/libs/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
